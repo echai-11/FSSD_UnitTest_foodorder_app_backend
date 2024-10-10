@@ -1,0 +1,14 @@
+const JWT_SECRET_KEY = process.env.JWT_SECRET_KEY;
+
+const SERVER_PORT = 8080;
+
+const DATABASE_URI = process.env.MONGODB_URL;
+
+const TOKEN_EXPIRATION_DURATION = "7d";
+
+module.exports = {
+  JWT_SECRET_KEY,
+  SERVER_PORT,
+  DATABASE_URI,
+  TOKEN_EXPIRATION_DURATION,
+};
